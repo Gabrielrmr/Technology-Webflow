@@ -11,31 +11,36 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 0;
+    padding: 2vw 3vw;
 }
 .Header_Logo{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.3vw;
+}
+.Header_Logo img{
+    width: 3vw;
 }
 .Header_Logo h2,.Logo h2{
     font-family: "Mulish";
-    font-size: 30px;
+    font-size: 1.6vw;
     font-weight: 800;
-    line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
     color: #2F2F2F;
 }
 .Header_Links{
     display: flex;
-    gap: 50px;
+    gap: 2vw;
+}
+.Header_Links img{
+    width: 0.7vw;
+    height: 0.5vw;
 }
 .Header_Links a{
     font-family: "Mulish";
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 600;
-    line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
     color: #2F2F2F;
@@ -43,31 +48,34 @@ header{
 }
 .Sing_up{
     display: flex;
-    gap: 20px;
+    gap: 1vw;
     align-items: center;
 }
 .Sing_up div{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 3vw;
+    height: 3vw;
     border-radius: 100%;
     align-items: center;
-    justify-content:center ;
+    justify-content:center;
     background-color: #5956E9;
 }
 .Sing_up button{
     font-family: "Open Sans";
-    font-size: 18px;
+    font-size: 1.2vw;
     font-weight: 600;
-    line-height: 25px;
     letter-spacing: 0em;
     text-align: center;
     color: #2F2F2F;
     cursor: pointer;
     background-color: white;
-    border: 1px solid #DCDCDC;
-    padding: 20px 50px;
-    border-radius: 40px; 
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 4vw;
+}
+.Sing_up img{
+    width: 1.5vw;
 }
 
 /*--------------------------------------------------Estilos Footer----------------------------------------------------------------*/
@@ -83,31 +91,34 @@ footer{
 .Footer_Encabezado{
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
-    border-top: 1px solid #DCDCDC;
-    border-bottom: 1px solid #DCDCDC;
+    padding: 3vw 0;
+    border-top: 0.1vw solid #DCDCDC;
+    border-bottom: 0.1vw solid #DCDCDC;
 }
 .Logo{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.3vw;
+}
+.Logo img{
+    width: 3vw;
+    height: 2vw;
 }
 .Footer_Encabezado button{
     font-family: "Mulish";
-    font-size: 20px;
+    font-size: 1.1vw;
     font-weight: 600;
-    line-height: 29px;
     text-align: center;
-    border: 1px solid #DCDCDC;
+    border: 0.1vw solid #DCDCDC;
     background-color: white;
-    padding: 20px 30px;
-    border-radius: 40px;
+    padding: 1vw 1.5vw;
+    border-radius: 2vw;
 }
 .Footer_Medio{
-    grid-template-columns: 52% 45%;
+    grid-template-columns: 60% 37%;
     display: grid;
-    padding: 5% 0;
-    gap: 35px;
+    padding: 4vw 0;
+    gap: 2.5vw;
 }
 .Footer_Links{
     display: grid;
@@ -117,16 +128,15 @@ footer{
 .Resources,.Utility_Pages{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.5vw;
 }
 .Utility_Pages{
-    border-right: 1px solid #DCDCDC;
+    border-right: 0.1vw solid #DCDCDC;
 }
 .Resources,.Utility_Pages h3{
     font-family: "Mulish";
-    font-size: 25px;
+    font-size: 1.5vw;
     font-weight: 700;
-    line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -137,9 +147,9 @@ footer{
 }
 .Links a{
     font-family: "Mulish";
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 2vw;
     letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
@@ -154,47 +164,44 @@ footer{
     grid-template-columns: 50% 48%;
     background-color: #2F2F2F;
     align-items: center;
-    padding: 5% 5%;
-    gap: 20px;
-    border-radius: 25px;
+    padding: 2vw;
+    gap: 2vw;
+    border-radius: 2vw;
     width: 100%;
 }
 .startup_izquierda{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    border-right: 1px solid #646464;
+    gap: 0.8vw;
+    border-right: 0.1vw solid #646464;
 }
 .startup_izquierda img{
-    width: 150px;
+    width: 6vw;
 }
 .startup_izquierda h4{
     font-family: "Mulish";
-    font-size: 30px;
+    font-size: 1.4vw;
     font-weight: 700;
-    line-height: 38px;
     color: #FFFFFF;
 }
 .startup_izquierda span{
     font-family: "Mulish";
-    font-size: 60px;
+    font-size: 3vw;
     font-weight: 900;
-    line-height: 75px;
     color: #FFFFFF;
 }
 .startup_izquierda button{
     font-family: "Mulish";
-    font-size: 20px;
+    font-size: 1.1vw;
     font-weight: 600;
-    line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
     background-color: #424242;
     color: #FFFFFF;
     border: none;
-    border-radius: 40px;
-    width: 75%;
-    height: 70px;
+    border-radius: 2vw;
+    width: 9vw;
+    height: 3vw;
     cursor: pointer;
 }
 .startup_derecha{
@@ -204,17 +211,17 @@ footer{
 .startup_derecha article{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.5vw;
 }
 .startup_derecha img{
-    width: 10px;
-    height: 10px;
+    width: 0.5vw;
+    height: 0.5vw;
 }
 .startup_derecha h4{
     font-family: "Mulish";
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: 700;
-    line-height: 39px;
+    line-height: 1.5vw;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
@@ -225,14 +232,14 @@ footer{
 .Footer_Final{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    border-top: 1px solid #DCDCDC;
+    align-items: center;
+    padding-top: 2vw;
+    border-top: 0.1vw solid #DCDCDC;
 }
 .Footer_Final h4{
     font-family: "Mulish";
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
     color: #808080;
@@ -243,9 +250,9 @@ footer{
 }
 .Redes_Footer{
     display: flex;
-    gap: 20px;
+    gap: 1vw;
 }
 .Redes_Footer img{
-    width: 30px;
-    height: 30px;
+    width: 1.3vw;
+    height: 1.3vw;
 }
