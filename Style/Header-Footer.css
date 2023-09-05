@@ -11,7 +11,7 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 2vw 3vw;
+    padding: 2vw 4vw;
 }
 .Header_Logo{
     display: flex;
