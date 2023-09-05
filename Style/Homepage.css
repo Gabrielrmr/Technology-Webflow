@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+/*----------------------------------------------------Estilos Banner---------------------------------------------------*/
+.Banner{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    box-shadow: 9vw 32vw 145vw -21vw #DB14F1;
+}
+.Fondo_Banner{
+    width: 91vw;
+    height: 45.5vw;
+}
+.Banner_Cuerpo{
+    box-shadow: -14vw 31vw 100vw -21vw #1B16FF;
+}
+.Titulo_Banner{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6.3vw;
+    left: 21vw;
+    align-items: center;
+    font-family: "Mulish";
+    gap: 1.3vw;
+}
+.Graphics{
+    position: absolute;
+    top: 25.5vw;
+    right: 12.5vw;
+    width: 73vw;
+    height: 29vw;
+}
+.Titulo_Banner h1{
+    font-size: 3.1vw;
+    font-weight: 800;
+    line-height: 3.4vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Titulo_Banner span{
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 2vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Titulo_Banner button{
+    font-size: 1.1vw;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+    width: 14vw;
+    height: 4vw;
+    background-color: white;
+    border: none;
+    border-radius: 4vw;
+    font-family: "Mulish";
+    cursor: pointer;
+}
+
+/*----------------------------------------------------Estilos Client Logos---------------------------------------------------*/
+.Client_Logo{
+    display: flex;
+    padding: 20vw 15vw 15vw 15vw;
+    justify-content: center;
+}
+.Client_Cuerpo{
+    display: flex;
+    width: 100%;
+    gap: 5vw;
+    justify-content: center;
+}
+.Client_Cuerpo img{
+    width: 8vw;
+    height: 8vw;
+}
