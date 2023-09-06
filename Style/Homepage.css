@@ -1,80 +1,283 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
-/*----------------------------------------------------Estilos Banner---------------------------------------------------*/
-.Banner{
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+/*--------------------------------------------------------------Estilos Banner--------------------------------------------------------*/
+.Banner {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     height: 100%;
-    box-shadow: 9vw 32vw 145vw -21vw #DB14F1;
+    box-shadow: rgb(219, 20, 241) 9vw 32vw 145vw -21vw;
 }
-.Fondo_Banner{
+.Fondo_Banner {
     width: 91vw;
     height: 45.5vw;
 }
-.Banner_Cuerpo{
-    box-shadow: -14vw 31vw 100vw -21vw #1B16FF;
+.Banner_Cuerpo {
+    box-shadow: rgb(27, 22, 255) -14vw 31vw 100vw -21vw;
 }
-.Titulo_Banner{
+.Titulo_Banner {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 6.3vw;
     left: 21vw;
     align-items: center;
-    font-family: "Mulish";
+    font-family: Mulish;
     gap: 1.3vw;
 }
-.Graphics{
+.Graphics {
     position: absolute;
     top: 25.5vw;
     right: 12.5vw;
     width: 73vw;
     height: 29vw;
 }
-.Titulo_Banner h1{
+.Titulo_Banner h1 {
     font-size: 3.1vw;
     font-weight: 800;
     line-height: 3.4vw;
     text-align: center;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
-.Titulo_Banner span{
+.Titulo_Banner span {
     font-size: 1vw;
     font-weight: 600;
     line-height: 2vw;
     text-align: center;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
-.Titulo_Banner button{
+.Titulo_Banner button {
     font-size: 1.1vw;
     font-weight: 600;
     letter-spacing: 0em;
     text-align: center;
-    color: #2F2F2F;
+    color: rgb(47, 47, 47);
     width: 14vw;
     height: 4vw;
     background-color: white;
     border: none;
     border-radius: 4vw;
-    font-family: "Mulish";
+    font-family: Mulish;
     cursor: pointer;
 }
 
-/*----------------------------------------------------Estilos Client Logos---------------------------------------------------*/
-.Client_Logo{
+/*--------------------------------------------------------------Estilos Client Logo--------------------------------------------------------*/
+.Client_Logo {
     display: flex;
-    padding: 20vw 15vw 15vw 15vw;
+    padding: 20vw 15vw 15vw;
     justify-content: center;
 }
-.Client_Cuerpo{
+.Client_Cuerpo {
     display: flex;
     width: 100%;
     gap: 5vw;
     justify-content: center;
 }
-.Client_Cuerpo img{
+.Client_Cuerpo img {
     width: 8vw;
     height: 8vw;
+}
+
+/*--------------------------------------------------------------Estilos About--------------------------------------------------------*/
+.About {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 4vw 7vw;
+}
+.About_Cuerpo {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    gap: 2vw;
+    width: 100%;
+    height: 100%;
+}
+.About_Text {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    width: 100%;
+}
+.About_Text h2 {
+    font-family: Mulish;
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: left;
+    color: rgb(47, 47, 47);
+}
+.About_Text p,.About_Articles h3 {
+    font-family: Mulish;
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(128, 128, 128);
+}
+.About_Articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.About_Articles article {
+    display: flex;
+    align-items: center;
+}
+.About_Articles img {
+    width: 2vw;
+    height: 1.2vw;
+}
+.About_Articles h3 {
+    color: rgb(47, 47, 47);
+}
+.About_Text button {
+    font-family: Mulish;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 47, 47);
+    border: none;
+    cursor: pointer;
+    width: 12.4vw;
+    height: 4.5vw;
+    border-radius: 3vw;
+}
+.About_Image {
+    position: relative;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+.Shedule {
+    width: 48vw;
+    height: 38vw;
+    z-index: 2;
+}
+.Millon {
+    position: absolute;
+    top: 28vw;
+    right: 24vw;
+    width: 28vw;
+    height: 13vw;
+}
+.Grafica {
+    position: absolute;
+    left: 30.7vw;
+    top: -1vw;
+    width: 25vw;
+    height: 17vw;
+}
+
+/*--------------------------------------------------------------Estilos Features--------------------------------------------------------*/
+.Features{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 5% 5%;
+}
+.Features_Cuerpo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 5vw;
+}
+.Features_Encabezado{
+    display: flex;
+    justify-content: center;
+}
+.Features_Encabezado h2{
+    font-family: "Mulish";
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: left;
+    color:  #2F2F2F;
+}
+.Features_Articles{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2vw;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw;
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 1.5vw;
+}
+.article_Titulo{
+    display: flex;
+    font-family: "Mulish";
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #2F2F2F;
+    background-color: #F6F6F6;
+    width: 12vw;
+    height: 4vw;
+    border-radius: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.article_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    border-bottom: 0.1vw solid #DCDCDC;
+    padding-bottom: 3vw;
+}
+.article_text h2{
+    font-family: "Mulish";
+    font-size: 1.8vw;
+    font-weight: 700;
+    line-height: 2vw;
+    text-align: left;
+    color: #2F2F2F;
+}
+.article_text p{
+    font-family: "Mulish";
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 1.7vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+}
+.article_Boton{
+    display: flex;
+    justify-content: space-between;
+}
+.article_Boton img{
+    width: 4vw;
+    height: 4vw;
+}
+.article_Boton button{
+    font-family: "Mulish";
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #2F2F2F;
+    background-color: white;
+    border: 0.1vw solid #DCDCDC;
+    padding: 1vw 3vw;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+.article_Boton button:hover{
+    background-color: #5956E9;
+    color: #FFFFFF;
+    border: none;
+}
+
+/*--------------------------------------------------------------Estilos Video--------------------------------------------------------*/
+.Video{
+    position: relative;
+}
+.Video_Encabezado{
+  
+}
+.image_video{
+    position: absolute;
+}
+.Play_Video{
+    position: absolute;
 }
