@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+/*--------------------------------------------------------------Estilos Banner--------------------------------------------------------*/
+.Banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.Banner_Cuerpo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Banner_Cuerpo img{
+    width: 91vw;
+}
+.Titulo_Banner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Titulo_Banner h1{
+    font-family: "Mulish";
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Titulo_Banner p{
+    font-family: "Mulish";
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------Estilos About--------------------------------------------------------*/
+.About{
+    display: flex;  
+    padding: 6% 11%;
+}
+.About_Cuerpo{
+    display: grid;
+    grid-template-columns: 54% 46%;
+    gap: 2vw;
+}
+.About_images{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.Oficina-About{
+    width: 38vw;
+    height: 26.5vw;
+}
+.About_500K{
+    display: flex;
+    flex-direction: column;
+    background-color: #5956E9;
+    justify-content: center;
+    width: 13vw;
+    height: 11.1vw;
+    border-radius: 1vw;
+    align-items: center;
+}
+.About_500K h3{
+    font-family: "Mulish";
+    font-size: 3.7vw;
+    font-weight: 800;
+    line-height: 4vw;
+    text-align: left;
+    color: #FFFFFF;
+}
+.About_500K h6{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Equipo-About{
+    width: 22.5vw;
+}
+.About_Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Titulo_About{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    border-bottom: 0.1vw solid #DCDCDC;
+    padding-bottom: 2vw;
+}
+.Titulo_About h2{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Titulo_About p,.Medio_About p{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    text-align: left;
+    color: #808080;
+}
+.Medio_About{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw 0;
+}
+.Medio_About h3{
+    font-family: "Mulish";
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-align: left;
+    color:#2F2F2F;
+}
+.About_Abajo{
+    display: flex;
+    justify-content: space-between;
+    width: 38vw;
+}
+.About_Articles{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.Avion,.Rueda{
+    display: flex;
+    background-color: #F6F6F6;
+    width: 6vw;
+    height: 6vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+}
+.Avion img,.Rueda img{
+    width: 2.5vw;
+    height: 2vw;
+}
+.About_Cuerpo button{
+    font-family: "Mulish";
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+    cursor: pointer;
+    border: none;
+    width: 12vw;
+    height: 4vw;
+    border-radius: 3VW;
+}
+
+/*--------------------------------------------------------------Estilos Counters--------------------------------------------------------*/
+.Testimonial_Counter{
+    padding: 0 18vw;
+}
+.Testimonial_Businesses{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding: 5vw 0;
+}
+.Testimonial_Businesses h2{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+    color: #2F2F2F;
+}
+.Testimonial_Happy h2{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Testimonial_Article{
+    display: flex;
+    justify-content: space-between;
+}
+.Testimonial_Article article{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+}
+.Testimonial_Businesses h3{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+    color: #5956E9;
+}
+.Testimonial_Businesses span{
+    font-family: "Mulish";
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-align: left;
+    color: #808080;
+}

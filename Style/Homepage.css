@@ -84,7 +84,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 4vw 7vw;
+    padding: 4vw 11vw;
 }
 .About_Cuerpo {
     display: grid;
@@ -96,27 +96,28 @@
 .About_Text {
     display: flex;
     flex-direction: column;
-    gap: 3vw;
+    gap: 2.5vw;
     width: 100%;
 }
 .About_Text h2 {
     font-family: Mulish;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     text-align: left;
     color: rgb(47, 47, 47);
 }
 .About_Text p,.About_Articles h3 {
     font-family: Mulish;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 400;
     text-align: left;
     color: rgb(128, 128, 128);
+    line-height: 1.5vw;
 }
 .About_Articles {
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 1.5vw;
 }
 .About_Articles article {
     display: flex;
@@ -131,14 +132,14 @@
 }
 .About_Text button {
     font-family: Mulish;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 600;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(47, 47, 47);
     border: none;
     cursor: pointer;
-    width: 12.4vw;
+    width: 10.4vw;
     height: 4.5vw;
     border-radius: 3vw;
 }
@@ -149,20 +150,20 @@
     width: 100%;
 }
 .Shedule {
-    width: 48vw;
-    height: 38vw;
+    width: 46vw;
+    height: 36vw;
     z-index: 2;
 }
 .Millon {
     position: absolute;
-    top: 28vw;
-    right: 24vw;
+    top: 26vw;
+    right: 22vw;
     width: 28vw;
     height: 13vw;
 }
 .Grafica {
     position: absolute;
-    left: 30.7vw;
+    left: 28.7vw;
     top: -1vw;
     width: 25vw;
     height: 17vw;
@@ -173,7 +174,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 7% 7%;
+    padding: 7% 13%;
 }
 .Features_Cuerpo{
     display: flex;
@@ -189,7 +190,7 @@
 }
 .Features_Encabezado h2{
     font-family: "Mulish";
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     text-align: left;
     color:  #2F2F2F;
@@ -206,8 +207,8 @@
     padding: 2vw;
     border: 0.1vw solid #DCDCDC;
     border-radius: 1.5vw;
-    width: 25vw;
-    height: 26vw;
+    width: 23vw;
+    height: 25vw;
 }
 .article_Titulo{
     display: flex;
@@ -227,12 +228,12 @@
     flex-direction: column;
     gap: 1vw;
     border-bottom: 0.1vw solid #DCDCDC;
-    padding-bottom: 3vw;
+    padding-bottom: 2vw;
 }
 .article_text h2{
     font-family: "Mulish";
-    font-size: 1.3vw;
-    font-weight: 700;
+    font-size: 1.2vw;
+    font-weight: 800;
     line-height: 2vw;
     text-align: left;
     color: #2F2F2F;
@@ -250,17 +251,17 @@
     justify-content: space-between;
 }
 .article_Boton img{
-    width: 3vw;
-    height: 3vw;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 .article_Boton button{
     font-family: "Mulish";
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-weight: 600;
     color: #2F2F2F;
     background-color: white;
     border: 0.1vw solid #DCDCDC;
-    padding: 1vw 2vw;
+    padding: 1vw 1.5vw;
     border-radius: 3vw;
     cursor: pointer;
 }
@@ -408,12 +409,14 @@
 /*--------------------------------------------------------------Estilos Work Procces--------------------------------------------------------*/
 .Work_Procces {
     display: flex;
-    padding: 7vw;
+    padding: 7vw 13vw;
 }
 .Work_Cuerpo {
     display: grid;
-    grid-template-columns: 38% 60%;
+    grid-template-columns: 40% 60%;
     width: 100%;
+    align-items: center;
+    gap: 1vw;
 }
 .Working {
     position: relative;
@@ -428,13 +431,13 @@
 }
 .Working_text h2 {
     font-family: "Mulish";
-    font-size: 2.3vw;
+    font-size: 2vw;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
 .Working_text p {
     font-family: "Mulish";
-    font-size: 1.05vw;
+    font-size: 1vw;
     font-weight: 400;
     line-height: 1.8vw;
     text-align: left;
@@ -456,6 +459,7 @@
 .Lista_Numeros {
     display: grid;
     grid-template-columns: 50% 50%;
+    row-gap: 2vw;
 }
 .Lista_Article {
     display: flex;
@@ -486,15 +490,15 @@
     color: rgb(128, 128, 128);
 }
 .Fondo_Work{
-    width: 28.7vw;
-    height: 31.7vw;
+    width: 27.7vw;
+    height: 30.7vw;
     border-radius: 1vw;
 }
 
 /*--------------------------------------------------------------Estilos Testimonial-Counter--------------------------------------------------------*/
 .Testimonial_Counter{
     display: flex;
-    padding: 6% 7%;
+    padding: 7% 12%;
 }
 .Testimonial_Cuerpo{
     display: flex;
@@ -509,7 +513,7 @@
     display: grid;
     grid-template-columns: 17% 66% 17%;
     position: relative;
-    padding: 10vw 0;
+    padding: 4vw 0;
     border-bottom: 0.1vw solid #DCDCDC;
 }
 .Flecha_Blanca,.Flecha_Negra{
@@ -518,8 +522,8 @@
     align-items: center;
 }
 .Flecha_Blanca div,.Flecha_Negra div{
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
     background-color: #FFFFFF;
     border-radius: 100%;
     display: flex;
@@ -528,8 +532,8 @@
     cursor: pointer;
 }
 .Flecha_Blanca img,.Flecha_Negra img{
-    width: 1.4vw;
-    height: 1.6vw;
+    width: 1vw;
+    height: 1vw;
 }
 .Flecha_Blanca img{
     filter: invert(1);
@@ -541,28 +545,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5vw;
+    gap: 3vw;
 }
 .Testimonial_Happy h3{
     font-family: "Mulish";
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     text-align: left;
     color: #2F2F2F;
 }
 .Micks{
-    width: 12vw;
-    height: 12vw;
+    width: 9vw;
+    height: 9vw;
 }
 .Comillas-Micks{
-    left: 30vw;
-    width: 5vw;
-    height: 6vw;
+    left: 28vw;
+    width: 3vw;
+    height: 4vw;
     position: absolute;
-    top: 26vw;
+    top: 15.5vw;
 }
 .Testimonial_MickG{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
 }
 .Testimonial_MickG h2{
     font-family: "Mulish";
@@ -578,29 +585,28 @@
 }
 .Testimonial_Happy p{
     font-family: "Mulish";
-    font-size: 1.5vw;
-    font-weight: 400;
+    font-size: 1.3vw;
+    font-weight: 500;
     line-height: 2.5vw;
     text-align: center;
 }
 .Testimonial_Businesses{
     display: flex;
     flex-direction: column;
-    gap: 6vw;
-    padding: 8vw 0;
+    gap: 4vw;
+    padding: 5vw 0;
     border-bottom: 0.1vw solid #DCDCDC;
 }
 .Testimonial_Businesses h2{
     font-family: "Mulish";
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
-    letter-spacing: 0em;
     text-align: center;
     color: #2F2F2F;
 }
 .Testimonial_Happy h2{
     font-family: "Mulish";
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 400;
     text-align: left;
     color: #2F2F2F;
@@ -617,14 +623,14 @@
 }
 .Testimonial_Businesses h3{
     font-family: "Mulish";
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     text-align: center;
     color: #5956E9;
 }
 .Testimonial_Businesses span{
     font-family: "Mulish";
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-weight: 400;
     text-align: left;
     color: #808080;
@@ -632,25 +638,25 @@
 .Testimonial_Boton{
     display: flex;
     flex-direction: column;
-    padding: 2vw 0 6vw 0;
+    padding: 2vw 0 4vw 0;
     gap: 3vw;
     align-items: center;
 }
 .Testimonial_Boton h3{
     font-family: "Mulish";
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 600;
     color: #2F2F2F;
 }
 .Testimonial_Boton button{
     font-family: "Mulish";
-    font-size: 1.5vw;
+    font-size: 1.1vw;
     font-weight: 600;
     text-align: center;
     color: #FFFFFF;
     background-color: #2F2F2F;
-    width: 14vw;
-    height: 5vw;
+    width: 11vw;
+    height: 4vw;
     border-radius: 3vw;
     border: none;
     cursor: pointer;
@@ -659,7 +665,7 @@
 /*--------------------------------------------------------------Estilos Blog--------------------------------------------------------*/
 .Blog{
     display: flex;
-    padding: 4% 7%;
+    padding: 4% 11%;
 }
 .Blog_Cuerpo{
     display: flex;
@@ -672,10 +678,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 73vw;
 }
 .Blog_Encabezado h2{
     font-family: "Mulish";
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     text-align: left;
     color: #2F2F2F;
@@ -687,21 +694,21 @@
 }
 .Blog_Encabezado p{
     font-family: "Mulish";
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 400;
     line-height: 1.9vw;
     color: #808080;
 }
 .Blog_Encabezado button{
     font-family: "Mulish";
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     font-weight: 600;
     text-align: center;
     color: #2F2F2F;
     background-color: #FFFFFF;
     cursor: pointer;
-    width: 16vw;
-    height: 5vw;
+    width: 15vw;
+    height: 4.5vw;
     border: 0.1vw solid #DCDCDC;
     border-radius: 3vw;
 }
@@ -713,11 +720,11 @@
     display: flex;
     flex-direction: column;
     gap: 2vw;
-    width: 25.9vw;
+    width: 21.9vw;
 }
 .Blog_Article img{
-    width: 25.9vw;
-    height: 21.5vw;
+    width: 21.9vw;
+    height: 18.5vw;
 }
 .Text_Article{
     display: flex;
@@ -732,7 +739,7 @@
 }
 .Blog_Article h4,.Blog_Article p{
     font-family: "Mulish";
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 400;
     text-align: left;
     line-height: 1.8vw;
@@ -740,13 +747,13 @@
 }
 .Blog_Article h3,.Blog_Article a{
     font-family: "Mulish";
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     font-weight: 700;
     text-align: left;
     color: #2F2F2F;
 }
 .Blog_Article a{
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: 600;
     cursor: pointer;
 }
@@ -754,7 +761,7 @@
 /*--------------------------------------------------------------Estilos Newsletter--------------------------------------------------------*/
 .Newsletter{
     display: flex;
-    padding: 9% 7%;
+    padding: 9% 11%;
     width: 100%;
 }
 .Newsletter_Cuerpo{
@@ -769,10 +776,10 @@
 }
 .img-Newsletter{
     position: absolute;
-    left: 46vw;
+    left: 41vw;
     top: -5vw;
-    width: 39vw;
-    height: 46vw;
+    width: 36vw;
+    height: 42vw;
 }
 .Pasword{
     display: flex;
@@ -784,13 +791,13 @@
 }
 .Pasword h2{
     font-family: "Mulish";
-    font-size: 2.9vw;
+    font-size: 2.2vw;
     font-weight: 800;
     color: #FFFFFF;
 }
 .Pasword span{
     font-family: "Mulish";
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 400;
     color: #FFFFFF;
 }
@@ -800,47 +807,47 @@
 }
 .Email input{
     border: none;
-    width: 31vw;
-    height: 5vw;
+    width: 27vw;
+    height: 3.5vw;
     border-radius: 3vw;
 }
 .Email input::placeholder{
     font-family: "Mulish";
-    font-size: 1.4vw;
+    font-size: 1vw;
     font-weight: 600;
     color: #2F2F2F;
-    padding-left: 2vw;
+    padding-left: 1vw;
 }
 .Email button{
     font-family: "Mulish";
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: 600;
     color: #FFFFFF;
     background-color: #2F2F2F;
     border: none;
     position: absolute;
-    height: 4.4vw;
-    width: 9vw;
+    height: 3vw;
+    width: 8vw;
     border-radius: 3vw;
-    top: 9.43vw;
-    left: 26.5vw;
+    top: 8.3vw;
+    left: 23.5vw;
 }
 .Pasword_Article{
     display: flex;
-    gap: 1vw;
+    gap: 0.5vw;
 }
 .Pasword_Article article{
     display: flex;
     gap: 1vw;
     align-items: center;
 }
-.Pasword_Article img{
-    width: 1.5vw;
-    height: 1.5vw;
+.Pasword_Article input{
+    width: 1vw;
+    height: 1vw;
 }
 .Pasword_Article h3{
     font-family: "Mulish";
-    font-size: 1.16vw;
+    font-size: 1vw;
     font-weight: 700;
     text-align: left;
     color: #FFFFFF;
