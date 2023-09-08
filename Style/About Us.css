@@ -209,3 +209,62 @@
     text-align: left;
     color: #808080;
 }
+
+/*--------------------------------------------------------------Estilos Mission--------------------------------------------------------*/
+.Mission{
+    display: flex;
+    padding: 6% 8% 6% 9%;
+}
+.Cuerpo_Mission{
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+}
+.Mission_Text{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: center;
+}
+.Mission_Text h2{
+    font-family: "Mulish";
+    font-size: 3vw;
+    font-weight: 800;
+    color: #2F2F2F;
+}
+.Mission_Text p{
+    font-family: "Mulish";
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 2vw;
+    text-align: left;
+    color: #808080;
+}
+.Mission_Article img{
+    height: 1.8vw;
+    width: 2.3vw;
+}
+.Mission_Article{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Mission_Article article{
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+}
+.Mission_Article h3{
+    font-family: "Mulish";
+    font-size: 1.4vw;
+    font-weight: 400;
+    text-align: left;
+}
+.Mission_Image{
+    display: flex;
+    gap: 2vw;
+}
+.Mission_Image img{
+    height: 23vw;
+    width: 21vw;
+}
