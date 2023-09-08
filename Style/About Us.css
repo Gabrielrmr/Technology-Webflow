@@ -213,7 +213,7 @@
 /*--------------------------------------------------------------Estilos Mission--------------------------------------------------------*/
 .Mission{
     display: flex;
-    padding: 6% 8% 6% 9%;
+    padding: 6% 12% 6% 12%;
 }
 .Cuerpo_Mission{
     display: flex;
@@ -223,26 +223,26 @@
 .Mission_Text{
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 1.5vw;
     justify-content: center;
 }
 .Mission_Text h2{
     font-family: "Mulish";
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 800;
     color: #2F2F2F;
 }
 .Mission_Text p{
     font-family: "Mulish";
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 2vw;
+    line-height: 1.6vw;
     text-align: left;
     color: #808080;
 }
 .Mission_Article img{
-    height: 1.8vw;
-    width: 2.3vw;
+    height: 1.5vw;
+    width: 1.5vw;
 }
 .Mission_Article{
     display: flex;
@@ -256,15 +256,97 @@
 }
 .Mission_Article h3{
     font-family: "Mulish";
-    font-size: 1.4vw;
+    font-size: 1vw;
     font-weight: 400;
     text-align: left;
 }
 .Mission_Image{
     display: flex;
-    gap: 2vw;
+    gap: 1.5vw;
 }
 .Mission_Image img{
-    height: 23vw;
-    width: 21vw;
+    height: 21vw;
+    width: 20vw;
 }
+
+/*--------------------------------------------------------------Estilos Values--------------------------------------------------------*/
+.Values{
+    display: flex;
+    padding: 6% 10%;
+    justify-content: center;
+}
+.Values_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Values_Encabezado{
+    display: flex;
+    justify-content: center;
+}
+.Values_Encabezado h2{
+    font-family: "Mulish";
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: left;
+}
+.Values_Article{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2vw;
+    row-gap: 1vw;
+}
+.Values_Article article{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    padding: 4vw 3.3vw;
+    border-radius: 1vw;
+    position: relative;
+}
+.Values_Article article:hover::after{
+    content: "";
+    display: grid;
+    width: 100%;
+    height: 100%;
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 1vw ;
+    position: absolute;
+    top: -1.5%;
+    
+}
+.Values_Article h3{
+    font-family: "Mulish";
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Values_Article p{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: center;
+    color: #808080;
+    line-height: 1.5vw;
+}
+.Values_Article img{
+    width: 4vw;
+    height: 4vw;
+}
+
+/*--------------------------------------------------------------Estilos Team--------------------------------------------------------*/
+.Team{}
+.Team_Cuerpo{
+    display: flex;
+    background-image: url(/Imagenes/Fondo-Team.png);
+}
+.Team_Encabezado{}
+.Team_Encabezado button{}
+.Team_Encabezado_Text{}
+.Team_Encabezado_Text h2{}
+.Team_Encabezado_Text p{}
+.Team_Img{}
+.Team_Article{}
+.Redes-Team{}
