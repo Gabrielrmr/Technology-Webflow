@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+p{
+    color: #808080;
+    font-size: 1vw;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.4vw;
+}
+.Tarea_blog--title{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 25vw;
+    margin: auto;
+    border-radius: 2vw;
+    display: grid;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+.blog--title_info h2{
+    color: #fff;
+}
+.blog--title_info p{
+    color: #fff;
+}
+
+.blog--title_info{
+    display: grid;
+    gap: 1vw;
+}
+.blog--title_info--perfil{
+    display: flex;
+}
+.title_info--perfil--usuario img{
+    border-radius: 50%;
+    width: 3.5vw;
+}
+.title_info--perfil--usuario{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #fff;
+    font-size: 1vw;
+    margin-right: 1vw;
+}
+.title_info--perfil--fecha{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    color: #fff;
+}
+.punto{
+    background: #fff;
+    border-radius: 50%;
+    width: 0.3vw;
+    height: 0.3vw;
+}
+.Tarea_blog-single--imagen{
+    width: 70%;
+    height: 45vw;
+    margin: auto;
+    padding: 5vw 0vw;
+}
+.Tarea_blog-single--imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+}
+.blog-single--content_automated{
+    width: 45vw;
+    margin: auto;
+    display: grid;
+    gap: 1vw;
+}
+.blog-single--content_automated ol{
+    font-size: 1vw;
+    color: #808080;
+    width: 35vw;
+    position: relative;
+    left: 6vw;
+    display: grid;
+    gap: 1vw;
+    padding: 2vw 0vw;
+}
+.blog-single--content_automated li::marker{
+    font-size: 1.2vw;
+    color: black;
+}
+.content_automated--imagen{
+    padding: 2vw 0vw;
+}
+.content_automated--imagen img{
+    width: 100%;
+    border-radius: 2vw;
+    height: 25vw;
+}
+.content_automated--imagen_fondo{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/fondo-gradiente.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2vw;
+    height: 15vw;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 2vw;
+}
+.comillas p{
+    font-size: 4vw;
+}
+.comillas{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background: #ffffff1a;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.automated--imagen_fondo--info p{
+    color: #fff;
+}
+.automated--imagen_fondo--info span{
+    font-size: 2vw;
+    font-weight: 800;
+}
+.content_automated--technology{
+    padding-top: 4vw;
+    display: grid;
+    gap: 1vw;
+}
+.content_automated--navegacion{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.content_automated--navegacion_btn button{
+    width: 9vw;
+    height: 2.7vw;
+    background: #F6F6F6;
+    color: black;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 2vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+.content_automated--navegacion_btn button:hover{
+    background: #E541ED;
+}
+.content_automated--navegacion_redes img{
+    width: 2vw;
+}
+.content_automated--navegacion_redes{
+    display: flex;
+    gap: 1vw;
+}
+.content_automated--usuario{
+    display: flex;
+    background: #F6F6F6;
+    border-radius: 2vw;
+    height: 15vw;
+    align-items: center;
+    padding: 0vw 2vw;
+}
+.content_automated--usuario_imagen img{
+    width: 9vw;
+    border-radius: 50%;
+}
+.content_automated--usuario_info{
+    display: grid;
+    gap: 1vw;
+    margin-left: 2vw;
+}
+.automated--usuario_info--redes{
+    display: flex;
+    gap: 1vw;
+}
+.automated--usuario_info--redes img{
+    width: 1.4vw;
+}

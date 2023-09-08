@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+p{
+    color: #808080;
+    font-size: 1vw;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.4vw;
+}
+.Tarea_blog--title{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 20vw;
+    margin: auto;
+    border-radius: 15px;
+    display: grid;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+.blog--title_info h2{
+    color: #fff;
+}
+.blog--title_info p{
+    color: #fff;
+}
+
+.blog--title_info{
+    display: grid;
+    gap: 1vw;
+}
+.Tarea_blog--content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin: auto;
+    padding: 4vw 0vw;
+}
+.blog--content--info{
+    width: 22vw;
+    padding: 2vw 0vw;
+}
+.blog--content--info_imagen{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/tablet.png);
+    background-size: cover;
+    height: 18vw;
+    width: 100%;
+    border-radius: 15px;
+}
+.content--info_imagen-btn{
+    position: relative;
+    top: 15vw;
+    left: 1vw;
+}
+.content--info_imagen-btn button{
+    width: 7vw;
+    height: 2.3vw;
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.blog--content--info_fecha{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 0vw;
+    border-bottom: 1px solid #808080;
+}
+.blog--content--info_descripcion{
+    display: grid;
+    gap: 1vw;
+    padding-top: 1vw;
+}
+.blog--content--info_descripcion a{
+    text-decoration: none;
+    color: #2F2F2F;
+    font-size: 1.1vw;
+    font-weight: 700;
+}
+.fondo_hombre{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/hombre_oficina.png);
+}
+.fondo--computador{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/computador.png);
+}
+.fondo--celular{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/celular.png);
+}
+.fondo--empleada{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/empleada.png);
+}
+.fondo--empleados{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/empleados.png);
+}
+
+.Tarea_blog--prueba{
+    width: 75%;
+    height: 40vw;
+    margin: auto;
+    padding: 4vw 0vw;
+}
+.blog--prueba_fondo{
+    display: flex;
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/fondo_prueba.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 25vw;
+    border-radius: 15px;
+}
+.blog--prueba_imagen img{
+    width: 35vw;
+    position: absolute;
+    top: -6vw;
+    right: 0;
+}
+.blog--prueba_content {
+    color: #fff;
+}
+.blog--prueba_content p{
+    color: #fff;
+}
+.blog--prueba_content{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    height: 20vw;
+    padding-left: 2vw;
+    justify-content: center;
+    text-align: left;
+}
+.blog--prueba_content--propuestas{
+    display: flex;
+    gap: 1vw;
+
+}
+.blog--prueba_content--propuestas strong{
+    font-size: 1.2vw;
+}
+.style_img{
+    display: flex;
+    position: relative;
+    top: 2vw;
+}
+.style_img img{
+    width: 1.4vw;
+}
+.blog--prueba_content--info{
+    display: grid;
+    gap: 0.5vw;
+}
+.blog--prueba_content--ingreso{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.blog--prueba_content--ingreso input{
+    width: 24vw;
+    height: 4vw;
+    padding-left: 2vw;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 25px;
+}
+.blog--prueba_content--ingreso button{
+    width: 7vw;
+    height: 3.5vw;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2vw;
+    background: #2F2F2F;
+    color: #fff;
+    position: absolute;
+    left: 16.7vw;
+    cursor: pointer;
+}

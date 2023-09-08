@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+p{
+    color: #808080;
+    font-size: 1.2vw;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.4vw;
+}
+.Tarea_redes{
+    height: 60vw;
+}
+.Tarea_fondo{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-size: cover;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    height: 45vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Tarea_publicacion-title{
+    padding: 5vw 0vw;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+.imagen_descripcion{
+    width: 70vw;
+    position: relative;
+    left: 3vw;
+}
+.imagen_descripcion img{
+    width: 100%;
+}
+.Tarea_cuentas{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    padding-top: 4vw;
+    gap: 4vw;
+}
+.cuentas_imagen img{
+    width: 30vw;
+}
+.cuentas_content{
+    padding-top: 2vw;
+    height: 80%;
+    margin: auto;
+    display: grid;
+    gap: 1.7vw;
+}
+.cuentas_content--imagen{
+    display: flex;
+    gap: 2vw;
+}
+.cuentas_content--imagen img{
+    width: 5vw;
+}
+.content--imagen_info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+}
+.Tarea_plan{
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    padding-top: 5vw;
+}
+.Tarea_plan_imagen img{
+    width: 37vw;
+}
+.Tarea_plan_content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.Tarea_plan--info{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Tarea_plan--navegacion{
+    display: flex;
+    gap: 1vw;
+}
+.Tarea_plan--navegacion img{
+    width: 5vw;
+}
+.Tarea_plan--porcentaje{
+    background: #5956E9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 18vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.Tarea_plan--porcentaje span{
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+
+.Tarea_plan--porcentaje p{
+    color: #fff;
+    font-size: 1vw;
+    position: absolute;
+}
+.Tarea_plan--porcentaje img{
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+
+.Tarea_graficos{
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    padding: 4vw 0vw;
+    gap: 2vw;
+}
+.Tarea_graficos--imagen img{
+    width: 35vw;
+}
+.Tarea_graficos--content{
+    display: grid;
+    gap: 1vw;
+}
+.graficos--content_info{
+    display: grid;
+    gap: 2vw;
+}
+.graficos--content_guia{
+    display: flex;
+    gap: 1vw;
+}
+.graficos--content_guia img{
+    width: 5vw;
+    height: 5vw;
+}
+.Tarea_familia{
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    padding: 4vw;
+    align-items: center;
+    background: #F6F6F6;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.familia--content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2vw;
+}
+.familia--content_imagen{
+    position: relative;
+    width: 10vw;
+    margin: auto;
+}
+.familia--content_imagen img{
+    width: 100%;
+    border-radius: 50%;
+}
+.content_imagen--comilla{
+    border: 1px solid;
+    width: 28%;
+    height: 2.8vw;
+    background: #5956E9;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+}
+.content_imagen--comilla p{
+    font-size: 4vw;
+    color: #fff;
+}
+.familia_flecha img{
+    width: 4vw;
+}
