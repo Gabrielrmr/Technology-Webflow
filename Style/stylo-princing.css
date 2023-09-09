@@ -324,32 +324,55 @@ line-height: 123%; /* 49.2px */
     .conten-precios p{  
         font-size: 1vw;
     }
-     .conten-precios{
-        width: 25%;
-    
+    .conten-precios {
+        margin-left: 0vw;
     }
-    .conten-precioss{
-        width: 25%;
-        justify-content: center;
-       padding-left: 2.5vw;
+   .-precios{
+    margin-left: 7vw;
+   }
+   
     
+    .conten-precio1{
+        width: 25%;
+        padding-left: 10%;
+        margin-left: 5%;
+      
+       }
+       .conten-precio{
+        width: 25%;
+        padding-left: 10%;
+       
+       }
+         .conten-precio3{
+        width: 25%;
+       padding-left: 5%;
+       }
+    .conten-precioss{
+        width:35%;
+        padding-left: 3vw;
+    }
+    .conten-precios2{
+        width: 25%;
+    }
+    .cont-social{
+        width: 32vw;
     }
     .conten-precioss2{
-        width: 25%;
-        
-        padding-left: 8vw;
+        width: 35%;
+        text-align: center;
     }
     .conten-precioss3{
-        width: 25%;
-        padding-right: 4vw;
+        width: 35%;
         text-align: end;
-        
+      
     }
     .-spacios{
         padding-top: 0vw;
         border-bottom:1px solid #D3D3D3 ;
         display: flex;
+
     }
+
     .color {
         background:white;
     }
@@ -359,7 +382,7 @@ line-height: 123%; /* 49.2px */
    
     }
     .-precioss{
-        margin-right: 4vw;
+   
        color: white;
        }
        .conten-iguales{
@@ -383,197 +406,5 @@ line-height: 123%; /* 49.2px */
         }
         .conten-precioss img,.conten-precioss2 img,.conten-precioss3 img{
             width: 1.5vw;
+           
         }
-
-/*--------------------------------------------------Estilos Footer----------------------------------------------------------------*/
-footer{
-    padding:4% 7% 2% 7%;
-}
-.Footer_Cuerpo{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-.Footer_Encabezado{
-    display: flex;
-    justify-content: space-between;
-    padding: 4vw 0;
-    border-top: 1px solid #DCDCDC;
-    border-bottom: 1px solid #DCDCDC;
-}
-.Logo{
-    display: flex;
-    align-items: center;
-
-    gap: 0.4vw;
-}
-.Logo img{
-  width: 4vw;
-}
-.Logo h2{
-   font-size: 2vw;
-}
-.Footer_Encabezado button{
-    font-family: "Mulish";
-    font-size: 1.3vw;
-    font-weight: 600;
-    line-height: 2.vw;
-    text-align: center;
-    border: 1px solid #DCDCDC;
-    background-color: white;
-    padding: 1.5vw 2vw;
-    border-radius: 3vw;
-}
-.Footer_Medio{
-    grid-template-columns: 52% 45%;
-    display: grid;
-    padding: 5% 0;
-    gap: 2.5vw;
-}
-.Footer_Links{
-    display: grid;
-    grid-template-columns: 35% 30% 35%;
-    width: 100%;
-}
-.Resources,.Utility_Pages{
-    display: flex;
-    flex-direction: column;
-    gap: 2.5vw;
-}
-.Utility_Pages{
-    border-right: 1px solid #DCDCDC;
-}
-.Resources,.Utility_Pages h3{
-    font-family: "Mulish";
-    font-size: 2vw;
-    font-weight: 700;
-    line-height: 2.4vw;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.Links{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.Links a{
-    font-family: "Mulish";
-    font-size: 1.2vw;
-    font-weight: 400;
-    line-height: 3vw;
-    letter-spacing: 0em;
-    text-align: left;
-    text-decoration: none;
-    color: #808080;
-}
-.Careers{
-    display: flex;
-    padding-top: 26%;
-}
-.startup_25{
-    display: grid;
-    grid-template-columns: 50% 48%;
-    background-color: #2F2F2F;
-    align-items: center;
-    padding: 5% 5%;
-    gap: 2vw;
-    border-radius: 2vw;
-    width: 100%;
-}
-.startup_izquierda{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5vw;
-    border-right: 1px solid #646464;
-}
-.startup_izquierda img{
-    width: 45%;
-}
-.startup_izquierda h4{
-    font-family: "Mulish";
-    font-size: 2vw;
-    font-weight: 700;
-    line-height: 2.5vw;
-    color: #FFFFFF;
-}
-.startup_izquierda span{
-    font-family: "Mulish";
-    font-size: 3.5vw;
-    font-weight: 900;
-    line-height: 7vw;
-    color: #FFFFFF;
-}
-.startup_izquierda button{
-    font-family: "Mulish";
-    font-size: 1vw;
-    font-weight: 600;
-    line-height: 1.7vw;
-    letter-spacing: 0em;
-    text-align: center;
-    background-color: #424242;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 3vw;
-    width: 75%;
-    height: 5vw;
-    cursor: pointer;
-}
-.startup_derecha{
-    display: flex;
-    flex-direction: column;
-}
-.startup_derecha article{
-    display: flex;
-    align-items: center;
-    gap:0.5vw;
-}
-.startup_derecha img{
-    width: 10px;
-    height: 10px;
-}
-
-.startup_derecha h4{
-    font-family: "Mulish";
-    font-size: 1vw;
-    font-weight: 700;
-    line-height: 2.5vw;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
-
-.startup_derecha img{
-    width: 0.7vw;
-    height: 0.7vw;
-}
-.startup_derecha span{
-    color: #38D4FF;
-}
-.Footer_Final{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 4vw;
-    border-top: 1px solid #DCDCDC;
-}
-.Footer_Final h4{
-    font-family: "Mulish";
-    font-size: 1vw;
-    font-weight: 400;
-    line-height: 3vw;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #808080;
-}
-.Footer_Final span{
-    font-weight: 700;
-    color: #2F2F2F;
-}
-.Redes_Footer{
-    display: flex;
-    gap: 1.5vw;
-}
-.Redes_Footer img{
-    width: 1.5vw;
-    height: 1.5vw;
-}
