@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+/*--------------------------------------------------Estilos Header----------------------------------------------------------------*/
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+.Header_Logo img{
+    width: 4vw;
+}
+.Header_Logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+}
+.Header_Logo h2,.Logo h2{
+    font-family: "Mulish";
+    font-size: 2vw;
+    font-weight: 800;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Header_Links{
+    display: flex;
+    gap: 4vw;
+}
+.Header_Links a{
+    font-family: "Mulish";
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 1.5vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+.Sing_up{
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+}
+.Sing_up div{
+    display: flex;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 100%;
+    align-items: center;
+    justify-content:center ;
+    background-color: #5956E9;
+}
+.Sing_up button{
+    font-family: "Open Sans";
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 2vw;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    padding: 0.7vw 4vw;
+    border-radius: 40px; 
+}
+/* ---------------------------------------------cuerpo-------------------------------------- */
+.cuerpo-principal{
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+.cont-img-principal img{
+    width: 100%;
+    height: 20vw;
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 2vw;
+font-style: normal;
+margin-top: 0.5vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+
+
+.cont-img-principal p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 4vw;
+font-style: normal;
+font-weight: 800;
+    margin-top: -15.5vw;
+line-height: 110%; /* 66px */
+}
+
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.5vw;
+font-style: normal;
+margin-top: 1vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+.conten-texto-principal{
+    width: 80%;
+    height: 80vh;
+  
+    margin: auto;
+    margin-top: 14vw;
+    padding: 2vw;
+}
+.conten-texto-principal2{
+    width: 80%;
+    height: 150vh;
+  
+    margin: auto;
+    margin-top: 14vw;
+    padding: 2vw;
+}
+.conten-texto-principal h2{
+    font-size: 2.5vw;
+    font-family: mulish;
+}
+.conten-texto-principal2 h2{
+    font-size: 2.5vw;
+    font-family: mulish;
+}
+.Texto_Principal{
+    width: 90%;
+    height: 45%;
+    margin:5vw auto;
+    border-bottom: solid 0.1vw rgb(213, 213, 213);
+    display: flex;
+    gap: 5.5vw;
+   
+}
+.Texto_Principal2{
+    width: 90%;
+    height: 25%;
+    margin:5vw auto;
+    border-bottom: solid 0.1vw rgb(213, 213, 213);
+    display: flex;
+    gap: 5.5vw;
+   
+}
+.texto-centrado{
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 9vw;
+   
+    color: #2F2F2F;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 202%; /* 71px */
+    gap: 3vw;
+    
+}
+.texto-centrado span{
+    color: #5956E9;
+}
+.flex-contendedor{
+    text-align: justify;
+}
+.flex-contendedor h3{
+    font-size: 1.8vw;
+    font-family: Mulish;
+    margin-top: 0.6;
+}
+
+.flex-contendedor h5{
+    font-size: 1.2vw;
+    margin-top: 0.7vw;
+    font-family: Mulish;
+}
+.flex-contendedor p{
+    font-size: 1.2vw;
+    margin-top: 0.7vw;
+    font-family: Mulish;
+    color: #808080;
+
+}
+.flex-contendedor span{
+    color: #5956E9;
+}
+.flex-contendedor button{
+    padding:1.2vw 3vw;
+    width: 13vw;
+    border-radius: 3vw;
+    margin-top: 4vw;
+    font-size: 1.3vw;
+    border: solid 0.1vw rgb(201, 201, 201);
+    background: none;
+}
+.conten-per{
+    width: 40%;
+    margin:15vw auto 10vw auto;
+    text-align: center;
+    font-family: mulish;
+    line-height: 1.7vw;
+}
+.conten-per h2{
+    margin-bottom: 1vw;
+    font-size: 1.7vw;
+}
+
+.conten-per p{
+    color: #808080;
+    font-size: 1.2vw;
+}
+.conten-per button{
+    width: 15vw;
+    padding: 1.5vw ;
+    border-radius: 3vw;
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    border: none;
+    background-color: #0664e0;
+    color: white;
+}
+.contenedor-img{
+    width: 80%;
+    margin:auto;
+    height: 40vw;
+    background-color:#F6F6F6;
+    border-radius: 1vw;
+    display: flex;
+    padding: 8vw 4vw;
+    gap: 7vw;
+    font-family: mulish;
+    
+}
+.dentro-img{
+    text-align: center;
+}
+.contenedor-img img{
+    width: 5vw;
+    height: 5vw;
+}
+.dentro-img{
+    text-align: center;
+}
+.dentro-img .img2{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin-left: -3vw;
+    margin-top: 2vw;
+}
+.dentro-img .img1{
+    width: 3vw;
+    margin-top: 2vw;
+    height: 3.6vw;
+    margin-left: 1vw;
+    position: relative;
+    
+}
+.dentro-img .img3{
+    width: 8vw;
+    height: 2vw;
+    margin-left: 1vw;
+}
+.flechas{
+    margin-top: 10vw
+}
+.dentro-img p{
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+}
+.dentro-img h1{
+    font-size: 2.5vw;
+    line-height: 1.7vw;
+}
+.dentro-img span{
+   font-weight: 800;
+}
+
+
+
+
+
+
+/*--------------------------------------------------Estilos Footer----------------------------------------------------------------*/
+footer{
+    padding:4% 7% 2% 7%;
+    margin-top: 6vw;
+}
+.Footer_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Footer_Encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 0;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+
+    gap: 0.4vw;
+}
+.Logo img{
+  width: 4vw;
+}
+.Logo h2{
+   font-size: 2vw;
+}
+.Footer_Encabezado button{
+    font-family: "Mulish";
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 2.vw;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    background-color: white;
+    padding: 1.5vw 2vw;
+    border-radius: 3vw;
+}
+.Footer_Medio{
+    grid-template-columns: 52% 45%;
+    display: grid;
+    padding: 5% 0;
+    gap: 2.5vw;
+}
+.Footer_Links{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    width: 100%;
+}
+.Resources,.Utility_Pages{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+.Utility_Pages{
+    border-right: 1px solid #DCDCDC;
+}
+.Resources,.Utility_Pages h3{
+    font-family: "Mulish";
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 2.4vw;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Links{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.Links a{
+    font-family: "Mulish";
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #808080;
+}
+.Careers{
+    display: flex;
+    padding-top: 40%;
+}
+.startup_25{
+    display: grid;
+    grid-template-columns: 50% 48%;
+    background-color: #2F2F2F;
+    align-items: center;
+    padding: 5% 5%;
+    gap: 2vw;
+    border-radius: 2vw;
+    width: 100%;
+}
+.startup_izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    border-right: 1px solid #646464;
+}
+.startup_izquierda img{
+    width: 45%;
+}
+.startup_izquierda h4{
+    font-family: "Mulish";
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+    color: #FFFFFF;
+}
+.startup_izquierda span{
+    font-family: "Mulish";
+    font-size: 3.5vw;
+    font-weight: 900;
+    line-height: 7vw;
+    color: #FFFFFF;
+}
+.startup_izquierda button{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 1.7vw;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #424242;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3vw;
+    width: 75%;
+    height: 5vw;
+    cursor: pointer;
+}
+.startup_derecha{
+    display: flex;
+    flex-direction: column;
+}
+.startup_derecha article{
+    display: flex;
+    align-items: center;
+    gap:0.5vw;
+}
+.startup_derecha img{
+    width: 10px;
+    height: 10px;
+}
+
+.startup_derecha h4{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.startup_derecha img{
+    width: 0.7vw;
+    height: 0.7vw;
+}
+.startup_derecha span{
+    color: #38D4FF;
+}
+.Footer_Final{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4vw;
+    border-top: 1px solid #DCDCDC;
+}
+.Footer_Final h4{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+}
+.Footer_Final span{
+    font-weight: 700;
+    color: #2F2F2F;
+}
+.Redes_Footer{
+    display: flex;
+    gap: 1.5vw;
+}
+.Redes_Footer img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
