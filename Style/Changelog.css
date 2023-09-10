@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+p{
+    color: #808080;
+    font-size: 1.2vw;
+}
+h2{
+    font-size: 2vw;
+}
+.Tarea_changelog{
+    width: 95%;
+    margin: auto;
+    height: 35vw;
+}
+.Tarea_changelog--fondo{
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vw;
+    border-radius: 1.5vw;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    padding-top: 4vw;
+}
+.Tarea_changelog--title h2{
+    color: #fff;
+}
+.Tarea_changelog--title{
+    display: grid;
+    gap: 1vw;
+    position: relative;
+    top: 7vw;
+}
+.Tarea_changelog--title p{
+    color: #fff;
+}
+.Tarea_changelog--title_version h2{
+    color: black;
+}
+.Tarea_changelog--title_version p{
+    color: #808080;
+}
+.Tarea_changelog--title_version{
+    background: #FFFFFF;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding: 4vw 3vw;
+    margin: auto;
+    border-radius: 1.5vw;
+    box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw rgba(0, 0, 0, 0.116);
+}

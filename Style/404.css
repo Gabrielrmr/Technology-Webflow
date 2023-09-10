@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+p{
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #000000;
+}
+span{
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #5956E9;
+}
+.Tarea_404{
+    width: 45vw;
+    margin: auto;
+}
+.Tarea_404--imagen{
+    padding-left: 2vw;
+}
+.Tarea_404--imagen img{
+    width: 40vw;
+}
+.Tarea_404--info{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+.Tarea_404--info button{
+    width: 10vw;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 2vw;
+    background: #2F2F2F;
+    color: #fff;
+}
+.Tarea_404--info button:hover{
+    background: #5956E9;
+}
