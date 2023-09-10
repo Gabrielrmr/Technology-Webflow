@@ -1,0 +1,140 @@
+.cuerpo-principal{
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+.cont-img-principal img{
+    width: 100%;
+    height: 20vw;
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 2vw;
+font-style: normal;
+margin-top: 0.5vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+.cont-subscripcion{
+    margin-top: 15.5vw;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    gap: 2.5vw;
+    justify-content: center;
+}
+
+.cont-img-principal p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 4vw;
+font-style: normal;
+font-weight: 800;
+    margin-top: -15.5vw;
+line-height: 110%; /* 66px */
+}
+.cont-text{
+    width: 28%;
+    height: 100%;
+    border-radius: 2vw;
+    border: solid 1px #7F7F7F;;
+    justify-content: center;
+
+ 
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.5vw;
+font-style: normal;
+margin-top: 1vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+.cuerpo-{
+    margin: 10vw;
+    width: 80%;
+    height: 60vw;
+    font-family: Mulish;
+    display: flex;
+}
+.contendedores-dentro1{
+    width:60%;
+  
+    padding: 2vw;
+}
+.contendedores-dentro{
+    width: 34%;
+    height: 20vw;
+    margin-top: 2vw;
+    background: #F6F6F6;
+    padding: 3vw;
+    border-radius: 1vw;
+}
+.contendedores-dentro1 p{
+    color: #808080;
+    font-family: Mulish;
+    font-size: 1.1vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+.contendedores-dentro1 h1{
+    font-size: 2.8vw;
+}
+.contendedores-dentro1 .img1{
+    width: 100%;
+    border-radius: 1vw;
+}
+.patern{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 3vw;
+    line-height: 4vw;
+    margin-top: 0.3vw;
+}
+
+.startup_derechaa{
+    display: flex;
+    flex-direction: column;
+
+}
+.startup_derechaa article{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.startup_derecha img{
+    width: 0.5vw;
+    height: 0.5vw;
+}
+.startup_derechaa h4{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 000;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+    margin-top: 0.3vw;
+}
+.contendedores-dentro h2{
+    font-size: 2vw;
+    
+}
+.contendedores-dentro p{
+    font-size: 1.1vw;
+    margin-top: 1.1vw;
+}
+.contendedores-dentro button{
+    font-size: 1.2vw;
+    padding: 1.4vw 3vw;
+    margin-top: 1.2vw;
+    border-radius: 3vw;
+    border: none;
+    color: white;
+    background-color: black;
+}
