@@ -25,7 +25,7 @@ h3{
     background-size: cover;
     width: 95%;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     height: 45vw;
     display: grid;
     align-items: center;
@@ -110,7 +110,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 1.5vw;
     position: relative;
     overflow: hidden;
 }
@@ -164,7 +164,7 @@ h3{
     padding: 4vw;
     align-items: center;
     background: #F6F6F6;
-    border-radius: 15px;
+    border-radius: 1.5vw;
     justify-content: space-between;
 }
 .familia--content{

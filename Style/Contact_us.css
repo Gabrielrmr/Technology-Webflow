@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+p{
+    color: #808080;
+    font-size: 1vw;
+}
+h2{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.4vw;
+}
+.Tarea_contacto{
+    width: 95%;
+    height: 65vw;
+    margin: auto;
+}
+.Tarea_contacto--fondo{
+    width: 100%;
+    margin: auto;
+    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 4vw 0vw;
+    height: 30vw;
+    border-radius: 1.2vw;
+    color: #fff;
+}
+.Tarea_contacto--title_contactos{
+    display: flex;
+    gap: 1vw;
+    width: 30vw;
+    margin: auto;
+}
+.Tarea_contacto--title{
+    display: flex;
+    flex-direction: column;
+}
+.Tarea_contacto--title_contactos-tamaño{
+    display: flex;
+}
+.Tarea_contacto--title_contactos-tamaño p{
+    color: #fff;
+}
+.Tarea_contacto--title_contactos-tamaño img{
+    width: 1.6vw;
+    height: 1.4vw;
+}
+.Tarea_contacto--title_contactos-tamaño{
+    display: flex;
+    gap: 0.5vw;
+    padding: 2vw 0vw;
+}
+.Tarea_contacto--ingreso_fondo label{
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.Tarea_contacto--ingreso_fondo{
+    background: #fff;
+    width: 80vw;
+    height: 45vw;
+    border-radius: 1.2vw;
+    box-shadow: 0.3vw 0.3vw 0.3vw 0.3vw rgba(0, 0, 0, 0.116);
+    padding: 4vw 2vw 4vw 8vw;
+}
+.Tarea_contacto--ingreso-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 15vw;
+}
+.Tarea_contacto--ingreso{
+    display: grid;
+    text-align: left;
+    width: 30vw;
+    height: 5vw;
+}
+.Tarea_contacto--ingreso input{
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 0.7vw;
+    font-size: 1vw;
+    padding-left: 1vw;
+    height: 3vw;
+}
+.Tarea_contacto--ingreso-message{
+    display: grid;
+    text-align: left;
+}
+.Tarea_contacto--ingreso-message-info{
+    display: grid;
+    text-align: left;
+    width: 30vw;
+    height: 5vw;
+}
+.Tarea_contacto--ingreso-message-info input{
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 0.7vw;
+    font-size: 1vw;
+    padding: 0vw 0vw 10vw  1vw;
+    height: 15vw;
+    width: 65vw;
+}
+.Tarea_contacto--ingreso-btn{
+    width: 15vw;
+    position: relative;
+    top: 14vw;
+}
+.Tarea_contacto--ingreso-btn button{
+    width: 12vw;
+    height: 3.5vw;
+    border: none;
+    border-radius: 2vw;
+    font-size: 1.1vw;
+    background: #2F2F2F;
+    color: #fff;
+}
+.Tarea_contacto--ingreso-btn button:hover{
+    background: #5956E9;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+    /* ---------- */
+.Tarea_contacto--content{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    padding: 4vw 0vw;
+    gap: 4vw;
+}
+.Tarea_contacto--content-title{
+    display: grid;
+    text-align: center;
+    gap: 1vw;
+}
+.Tarea_contacto--content-pais{
+    width: 20vw;
+    height: 20vw;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    background: #F6F6F6;
+    border-radius: 1.5vw;
+}
+.contacto--content-pais_btn {
+    position: relative;
+    left: 0.2vw;
+    top: 0.2vw;
+    height: 4vw;
+    width: 11vw;
+}
+.contacto--content-pais_btn button{
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.1vw;
+    background: #6966FF;
+    border: none;
+    border-radius: 2vw;
+}
+.pais_info--logo p{
+    font-size: 1.2vw;
+    color: #DD7FA1;
+    font-weight: 700;
+}
+.pais_info--logo{
+    width: 4vw;
+    height: 4vw;
+    background: #FFDCE9;
+    color: #DD7FA1;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.contacto--content-pais_info{
+    display: grid;
+    gap: 0.5vw;
+}
+.color_azul p{
+    color: #3694D8;
+}
+.color_azul{
+    background: #B1DEFF;
+}
+.color_verde p{
+    color: #6EAB6C;
+}
+.color_verde{
+    background: #C5E8C4;
+}
+.Tarea_contacto--paices{
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+}
+.contacto_content--questions{
+    display: grid;
+    gap: 2vw;
+    padding-top: 2vw;
+    text-align: center;
+}
+.contacto_content--questions-one{
+    border: 1px solid #DCDCDC;
+    width: 45vw;
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 1vw;
+    border-radius: 1vw;
+    margin: auto;
+}
+.questions-one_circle{
+    width: 3vw;
+    height: 3vw;
+    background: #F6F6F6;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.contacto_content--questions-two{
+    background: #F6F6F6;
+    width: 45vw;
+    border-radius: 1vw;
+    margin: auto;
+    padding: 1vw 0.2vw;
+}
+.questions-two{
+    width: 44.7vw;
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 1vw ;
+    border-radius: 1vw;
+    margin: auto;
+}
+.two{
+    background: #5236FF;
+}
+.content--questions-two_info h4{
+    font-size: 1.2vw;
+    padding-bottom: 1vw;
+}
+.content--questions-two_info img{
+    width: 2vw;
+}
+.content--questions-two_info{
+    width: 40vw;
+    margin: auto;
+    text-align: left;
+}
+.content--questions-two_info--puntos{
+    padding: 2vw 0vw;
+    display: grid;
+    gap: 1vw;
+}
+.questions-two_info--puntos-content{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}

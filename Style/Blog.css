@@ -24,7 +24,7 @@ h3{
     width: 95%;
     height: 20vw;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 1.5vw;
     display: grid;
     text-align: center;
     align-items:center;
@@ -57,7 +57,7 @@ h3{
     background-size: cover;
     height: 18vw;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 1.5vw;
 }
 .content--info_imagen-btn{
     position: relative;
@@ -68,7 +68,7 @@ h3{
     width: 7vw;
     height: 2.3vw;
     border: none;
-    border-radius: 15px;
+    border-radius: 1.5vw;
     background: #fff;
     color: black;
     font-weight: 700;
@@ -121,7 +121,7 @@ h3{
     background-size: cover;
     position: relative;
     height: 25vw;
-    border-radius: 15px;
+    border-radius: 1.5vw;
 }
 .blog--prueba_imagen img{
     width: 35vw;
@@ -176,13 +176,13 @@ h3{
     padding-left: 2vw;
     font-size: 1.2vw;
     border: none;
-    border-radius: 25px;
+    border-radius: 2vw;
 }
 .blog--prueba_content--ingreso button{
     width: 7vw;
     height: 3.5vw;
     border: none;
-    border-radius: 25px;
+    border-radius: 2vw;
     font-size: 1.2vw;
     background: #2F2F2F;
     color: #fff;
