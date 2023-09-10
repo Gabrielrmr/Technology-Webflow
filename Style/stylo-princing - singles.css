@@ -1,0 +1,234 @@
+
+/* ---------------------------------------------cuerpo-------------------------------------- */
+.cuerpo-principal{
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+.cont-img-principal img{
+    width: 100%;
+    height: 20vw;
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 2vw;
+font-style: normal;
+margin-top: 0.5vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+.cont-subscripcion{
+    margin-top: 15.5vw;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    gap: 2.5vw;
+    justify-content: center;
+}
+
+.cont-img-principal p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 4vw;
+font-style: normal;
+font-weight: 800;
+    margin-top: -15.5vw;
+line-height: 110%; /* 66px */
+}
+.contendedores-dentro{
+    width: 50%;
+    height: 100%;
+    border-radius: 2vw;
+    border: solid 1px #7F7F7F;;
+    justify-content: center;
+
+ 
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.5vw;
+font-style: normal;
+margin-top: 1vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+
+.conten-flex{
+    width: 84%;
+    height: 30vw;
+    border-radius: 3vw;
+    
+    margin: 15vw auto;
+    display: flex;
+    gap:1vw;
+    padding: 1vw;
+}
+.conten-flex-dentro {
+    background: #F6F6F6;
+    width: 40%;
+    height: 100%;
+    border-radius: 1vw;
+    padding:4vw 2vw;
+}
+.conten-flex-tamaño{
+  
+    width: 65%;
+    height: 100%;
+    border-radius: 1vw;
+    padding: 2vw;
+    font-family: Mulish;
+}
+.conten-flex-dentro H2{
+        color: #2F2F2F;
+    font-family: Mulish;
+    font-size: 1.7VW;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%; /* 38.5px */
+    margin-bottom: 0.5vw;
+}
+.conten-flex-dentro p{
+    color: #808080;
+font-family: Mulish;
+font-size: 1VW;
+font-style: normal;
+
+line-height: 150%; /* 38.5px */
+margin-bottom: 0.5vw;
+}
+.conten-flex-dentro H3{
+    color: #2F2F2F;
+font-family: Mulish;
+font-size: 3VW;
+margin-bottom: 2vw;
+}
+.conten-flex-dentro span{
+    color: #2F2F2F;
+font-family: Mulish;
+font-size: 1.5VW;
+
+}
+.conten-flex-dentro button{
+    
+font-family: Mulish;
+font-size: 1VW;
+border-radius: 3vw;
+margin-bottom: 1vw;
+line-height: 2vw;
+width: 25vw;
+padding: 0.9vw 2vw;
+border: solid 0.1vw rgb(202, 202, 202);
+}
+.btnn{
+    justify-content: space-between;
+    border: solid 0.1vw rgb(202, 202, 202);
+    background-color: #F6F6F6; ;
+    background: #5956E9;
+    color: #FFF;
+}
+.conten-flex-tamaño h2{
+    font-size: 2.5vw;
+    line-height: 2.2vw;
+}
+.conten-flex-tamaño p{
+    margin-top: 1vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color:  rgb(105, 105, 105);
+}
+
+.chulo{
+    display: flex;
+    flex-direction: column;
+}
+.chulo article{
+    display: flex;
+    align-items: center;
+    gap:0.5vw;
+}
+.chulo img{
+    width: 10px;
+    height: 10px;
+}
+.chulo h4{
+    font-family: "Mulish";
+    font-size: 1.3vw;
+    font-weight: 700;
+    line-height: 2.7vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232323; 
+}
+.chulo img{
+    width: 0.7vw;
+    height: 0.7vw;
+}
+.conten-todo{
+    margin-left: 4vw;
+  padding-top: 6vw;
+  font-family: "Mulish";
+}
+.cont-fondo-img{
+    width: 85%;
+    height: 30vw;
+    background-image: url(/Imagenes/fondo-image-start\ \(2\).png );
+    margin: auto;
+    border-radius: 1vw;
+    background-size: cover;
+    display: flex;
+}
+.conten-todo h2{
+    font-size:2.8vw ;
+    color: #FFF;
+    margin-bottom: 1VW;
+}
+.conten-todo p{
+    font-style: 1vw;
+    color: #FFF;
+    margin-bottom: 1VW;
+}
+.conten-todo input{
+    width: 25vw;
+    padding: 1.3vw ;
+    justify-content: left;
+    font-size:  1vw !important;;
+    border-radius: 3vw;
+    border: none;
+}
+.conten-todo button{
+    padding: 1.1vw ;
+    width: 7vw;
+    border-radius:3vw ;
+    border:none;
+    background-color: black;
+    color: #FFF;
+    margin-left: -7.3vw;
+    cursor: pointer;
+}
+.conten-checboks{
+    padding-top: 1vw;
+}
+
+.conten-checboks{
+    display: flex;
+    gap: 1vw;
+    font-size: 1vw;
+}
+.conten-checboks p{
+    
+}
+.conten-checboks img{
+    margin-right: 0.3vw;
+
+}
+.img-rotada{
+    width: 40vw;
+    height: 48vw;
+    margin-top: -7vw;
+    margin-right: -30%;
+}
