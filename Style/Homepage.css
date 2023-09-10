@@ -1,0 +1,854 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+/*--------------------------------------------------------------Estilos Banner--------------------------------------------------------*/
+.Banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    box-shadow: rgb(219, 20, 241) 9vw 32vw 145vw -21vw;
+}
+.Fondo_Banner {
+    width: 91vw;
+    height: 45.5vw;
+}
+.Banner_Cuerpo {
+    box-shadow: rgb(27, 22, 255) -14vw 31vw 100vw -21vw;
+}
+.Titulo_Banner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6.3vw;
+    left: 21vw;
+    align-items: center;
+    font-family: Mulish;
+    gap: 1.3vw;
+}
+.Graphics {
+    position: absolute;
+    top: 25.5vw;
+    right: 12.5vw;
+    width: 73vw;
+    height: 29vw;
+}
+.Titulo_Banner h1 {
+    font-size: 3.1vw;
+    font-weight: 800;
+    line-height: 3.4vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Titulo_Banner span {
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 2vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Titulo_Banner button {
+    font-size: 1.1vw;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(47, 47, 47);
+    width: 14vw;
+    height: 4vw;
+    background-color: white;
+    border: none;
+    border-radius: 4vw;
+    font-family: Mulish;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------Estilos Client Logo--------------------------------------------------------*/
+.Client_Logo {
+    display: flex;
+    padding: 20vw 15vw 15vw;
+    justify-content: center;
+}
+.Client_Cuerpo {
+    display: flex;
+    width: 100%;
+    gap: 5vw;
+    justify-content: center;
+}
+.Client_Cuerpo img {
+    width: 8vw;
+    height: 8vw;
+}
+
+/*--------------------------------------------------------------Estilos About--------------------------------------------------------*/
+.About {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 4vw 11vw;
+}
+.About_Cuerpo {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    gap: 2vw;
+    width: 100%;
+    height: 100%;
+}
+.About_Text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    width: 100%;
+}
+.About_Text h2 {
+    font-family: Mulish;
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: left;
+    color: rgb(47, 47, 47);
+}
+.About_Text p,.About_Articles h3 {
+    font-family: Mulish;
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(128, 128, 128);
+    line-height: 1.5vw;
+}
+.About_Articles {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.About_Articles article {
+    display: flex;
+    align-items: center;
+}
+.About_Articles img {
+    width: 2vw;
+    height: 1.2vw;
+}
+.About_Articles h3 {
+    color: rgb(47, 47, 47);
+}
+.About_Text button {
+    font-family: Mulish;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 47, 47);
+    border: none;
+    cursor: pointer;
+    width: 10.4vw;
+    height: 4.5vw;
+    border-radius: 3vw;
+}
+.About_Image {
+    position: relative;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+.Shedule {
+    width: 46vw;
+    height: 36vw;
+    z-index: 2;
+}
+.Millon {
+    position: absolute;
+    top: 26vw;
+    right: 22vw;
+    width: 28vw;
+    height: 13vw;
+}
+.Grafica {
+    position: absolute;
+    left: 28.7vw;
+    top: -1vw;
+    width: 25vw;
+    height: 17vw;
+}
+
+/*--------------------------------------------------------------Estilos Features--------------------------------------------------------*/
+.Features{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 7% 13%;
+}
+.Features_Cuerpo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 5vw;
+    align-items: center;
+}
+.Features_Encabezado{
+    display: flex;
+    justify-content: center;
+}
+.Features_Encabezado h2{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: left;
+    color:  #2F2F2F;
+}
+.Features_Articles{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2vw;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 1.5vw;
+    width: 23vw;
+    height: 25vw;
+}
+.article_Titulo{
+    display: flex;
+    font-family: "Mulish";
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #2F2F2F;
+    background-color: #F6F6F6;
+    width: 11vw;
+    height: 3.5vw;
+    border-radius: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.article_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    border-bottom: 0.1vw solid #DCDCDC;
+    padding-bottom: 2vw;
+}
+.article_text h2{
+    font-family: "Mulish";
+    font-size: 1.2vw;
+    font-weight: 800;
+    line-height: 2vw;
+    text-align: left;
+    color: #2F2F2F;
+}
+.article_text p{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.7vw;
+    text-align: left;
+    color: #808080;
+}
+.article_Boton{
+    display: flex;
+    justify-content: space-between;
+}
+.article_Boton img{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.article_Boton button{
+    font-family: "Mulish";
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: #2F2F2F;
+    background-color: white;
+    border: 0.1vw solid #DCDCDC;
+    padding: 1vw 1.5vw;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+.article_Boton button:hover{
+    background-color: #5956E9;
+    color: #FFFFFF;
+}
+.Creative{
+    width: 13vw;
+    height: 4vw;
+}
+/*--------------------------------------------------------------Estilos Video--------------------------------------------------------*/
+.Video{
+    position: relative;
+}
+.Video_Encabezado{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 10vw;
+  left: 13vw;
+  width: 73vw;
+}
+.Text_Video{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.Text_Video h2,.Text_Video span,.Video_Encabezado button{
+    font-family: "Mulish";
+    font-size: 3vw;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 3.8vw;
+}
+.Text_Video span{
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: 0;
+}
+.Video_Encabezado button{
+    color: #2F2F2F;
+    font-size: 1.3vw;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: none;
+    height: 4vw;
+    width: 12vw;
+    text-align: center;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+.Video_Fondo{
+    width: 100%;
+}
+.image_video{
+    position: absolute;
+    width: 73vw;
+    top: 22vw;
+    right: 13vw;
+    height: 35vw;
+}
+.Play_Video{
+    display: flex;
+    position: absolute;
+    background-color:#FFFFFF;
+    left: 14vw;
+    top: 49.5vw;
+    height: 6vw;
+    width: 20vw;
+    border-radius: 3vw;
+    gap: 2vw;
+    align-items: center;
+    padding-left: 0.5vw;
+}
+.Play_Video h3,.Play_Video span{
+    font-family: "Mulish";
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: #2F2F2F;
+    font-weight: 400;
+}
+.Play_Video span{
+    color: #5956E9;
+    font-weight: 800;
+}
+.Play_Video button{
+    background-color:#F6F6F6;
+    border: none;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.Play_Video img{
+    width: 1.2vw;
+}
+/*--------------------------------------------------------------Estilos Social Media--------------------------------------------------------*/
+.Social_Media{
+    display: flex;
+    padding: 33% 11% 9% 19%;
+}
+.Social_Cuerpo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.Social_Text{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.Social_Text h2{
+    font-family: "Mulish";
+    font-size: 2.4vw;
+    font-weight: 800;
+    line-height: 3vw;
+    color: #2F2F2F;
+}
+.Social_Text p{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.4vw;
+    color: #808080;
+}
+.Social_Text button{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+    border: none;
+    width: 11vw;
+    height: 4vw;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+.Social_Img img{
+    width: 41vw;
+    height: 25.5vw;
+}
+
+/*--------------------------------------------------------------Estilos Work Procces--------------------------------------------------------*/
+.Work_Procces {
+    display: flex;
+    padding: 7vw 13vw;
+}
+.Work_Cuerpo {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    align-items: center;
+    gap: 1vw;
+}
+.Working {
+    position: relative;
+}
+.Working_text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 2vw;
+    top: 4vw;
+    left: 3vw;
+}
+.Working_text h2 {
+    font-family: "Mulish";
+    font-size: 2vw;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+.Working_text p {
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.8vw;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.Working_text button {
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(47, 47, 47);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 3vw;
+}
+.Lista_Numeros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 2vw;
+}
+.Lista_Article {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.Lista_Article h3 {
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 900;
+    color: rgb(47, 47, 47);
+}
+.Lista_Article h3:hover{
+    color: #5956E9;
+}
+.Lista_Article h4 {
+    font-family: "Mulish";
+    font-size: 1.56vw;
+    font-weight: 700;
+    line-height: 1.8vw;
+    color: rgb(47, 47, 47);
+}
+.Lista_Article p {
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    color: rgb(128, 128, 128);
+}
+.Fondo_Work{
+    width: 27.7vw;
+    height: 30.7vw;
+    border-radius: 1vw;
+}
+
+/*--------------------------------------------------------------Estilos Testimonial-Counter--------------------------------------------------------*/
+.Testimonial_Counter{
+    display: flex;
+    padding: 7% 12%;
+}
+.Testimonial_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+    border-radius: 2vw;
+}
+.Testimonial_Micks{
+    display: grid;
+    grid-template-columns: 17% 66% 17%;
+    position: relative;
+    padding: 4vw 0;
+    border-bottom: 0.1vw solid #DCDCDC;
+}
+.Flecha_Blanca,.Flecha_Negra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Flecha_Blanca div,.Flecha_Negra div{
+    width: 4vw;
+    height: 4vw;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Flecha_Blanca img,.Flecha_Negra img{
+    width: 1vw;
+    height: 1vw;
+}
+.Flecha_Blanca img{
+    filter: invert(1);
+}
+.Flecha_Blanca div:hover,.Flecha_Negra div:hover{
+    background-color:#5956E9;;
+}
+.Testimonial_Happy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+}
+.Testimonial_Happy h3{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Micks{
+    width: 9vw;
+    height: 9vw;
+}
+.Comillas-Micks{
+    left: 28vw;
+    width: 3vw;
+    height: 4vw;
+    position: absolute;
+    top: 15.5vw;
+}
+.Testimonial_MickG{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+.Testimonial_MickG h2{
+    font-family: "Mulish";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Testimonial_MickG span{
+    font-weight: 700;
+}
+.Testimonial_Happy p{
+    font-family: "Mulish";
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 2.5vw;
+    text-align: center;
+}
+.Testimonial_Businesses{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding: 5vw 0;
+    border-bottom: 0.1vw solid #DCDCDC;
+}
+.Testimonial_Businesses h2{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+    color: #2F2F2F;
+}
+.Testimonial_Happy h2{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Testimonial_Article{
+    display: flex;
+    justify-content: space-between;
+}
+.Testimonial_Article article{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+}
+.Testimonial_Businesses h3{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: center;
+    color: #5956E9;
+}
+.Testimonial_Businesses span{
+    font-family: "Mulish";
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-align: left;
+    color: #808080;
+}
+.Testimonial_Boton{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 0 4vw 0;
+    gap: 3vw;
+    align-items: center;
+}
+.Testimonial_Boton h3{
+    font-family: "Mulish";
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+.Testimonial_Boton button{
+    font-family: "Mulish";
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+    width: 11vw;
+    height: 4vw;
+    border-radius: 3vw;
+    border: none;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------Estilos Blog--------------------------------------------------------*/
+.Blog{
+    display: flex;
+    padding: 4% 11%;
+}
+.Blog_Cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 3vw;
+}
+.Blog_Encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 73vw;
+}
+.Blog_Encabezado h2{
+    font-family: "Mulish";
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Blog_Encabezado div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.Blog_Encabezado p{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.9vw;
+    color: #808080;
+}
+.Blog_Encabezado button{
+    font-family: "Mulish";
+    font-size: 1.1vw;
+    font-weight: 600;
+    text-align: center;
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    width: 15vw;
+    height: 4.5vw;
+    border: 0.1vw solid #DCDCDC;
+    border-radius: 3vw;
+}
+.Blog_Contenido{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Blog_Article{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 21.9vw;
+}
+.Blog_Article img{
+    width: 21.9vw;
+    height: 18.5vw;
+}
+.Text_Article{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.Text_Article div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1vw solid #DCDCDC; 
+    padding-bottom: 1.5vw;
+}
+.Blog_Article h4,.Blog_Article p{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.8vw;
+    color:#808080;
+}
+.Blog_Article h3,.Blog_Article a{
+    font-family: "Mulish";
+    font-size: 1.4vw;
+    font-weight: 700;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Blog_Article a{
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------Estilos Newsletter--------------------------------------------------------*/
+.Newsletter{
+    display: flex;
+    padding: 9% 11%;
+    width: 100%;
+}
+.Newsletter_Cuerpo{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.Fondo-Newsletter{
+    display: flex;
+    width: 100%;
+}
+.img-Newsletter{
+    position: absolute;
+    left: 41vw;
+    top: -5vw;
+    width: 36vw;
+    height: 42vw;
+}
+.Pasword{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8vw;
+    gap: 2vw;
+    padding-left: 5vw;
+}
+.Pasword h2{
+    font-family: "Mulish";
+    font-size: 2.2vw;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.Pasword span{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Email{
+    display: flex;
+    align-items: center;
+}
+.Email input{
+    border: none;
+    width: 27vw;
+    height: 3.5vw;
+    border-radius: 3vw;
+}
+.Email input::placeholder{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 600;
+    color: #2F2F2F;
+    padding-left: 1vw;
+}
+.Email button{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+    border: none;
+    position: absolute;
+    height: 3vw;
+    width: 8vw;
+    border-radius: 3vw;
+    top: 8.3vw;
+    left: 23.5vw;
+}
+.Pasword_Article{
+    display: flex;
+    gap: 0.5vw;
+}
+.Pasword_Article article{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.Pasword_Article input{
+    width: 1vw;
+    height: 1vw;
+}
+.Pasword_Article h3{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+}

@@ -11,7 +11,7 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 2vw 3vw;
+    padding: 2vw 4vw;
 }
 .Header_Logo{
     display: flex;
@@ -80,7 +80,7 @@ header{
 
 /*--------------------------------------------------Estilos Footer----------------------------------------------------------------*/
 footer{
-    padding:4% 7% 2% 7%;
+    padding:4% 9% 2% 9%;
 }
 .Footer_Cuerpo{
     display: flex;

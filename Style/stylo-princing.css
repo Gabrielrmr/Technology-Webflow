@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+/*--------------------------------------------------Estilos Header----------------------------------------------------------------*/
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+.Header_Logo img{
+    width: 4vw;
+}
+.Header_Logo{
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+}
+.Header_Logo h2,.Logo h2{
+    font-family: "Mulish";
+    font-size: 2vw;
+    font-weight: 800;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+}
+.Header_Links{
+    display: flex;
+    gap: 4vw;
+}
+.Header_Links a{
+    font-family: "Mulish";
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 1.5vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+.Sing_up{
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+}
+.Sing_up div{
+    display: flex;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 100%;
+    align-items: center;
+    justify-content:center ;
+    background-color: #5956E9;
+}
+.Sing_up button{
+    font-family: "Open Sans";
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 2vw;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F2F2F;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    padding: 0.7vw 4vw;
+    border-radius: 40px; 
+}
+/* ---------------------------------------------cuerpo-------------------------------------- */
+.cuerpo-principal{
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+.cont-img-principal img{
+    width: 100%;
+    height: 20vw;
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 2vw;
+font-style: normal;
+margin-top: 0.5vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+.cont-subscripcion{
+    margin-top: 15.5vw;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    gap: 2.5vw;
+    justify-content: center;
+}
+
+.cont-img-principal p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 4vw;
+font-style: normal;
+font-weight: 800;
+    margin-top: -15.5vw;
+line-height: 110%; /* 66px */
+}
+.cont-text{
+    width: 28%;
+    height: 100%;
+    border-radius: 2vw;
+    border: solid 1px #7F7F7F;;
+    justify-content: center;
+
+ 
+}
+.textto p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.5vw;
+font-style: normal;
+margin-top: 1vw;
+font-weight: 600;
+line-height: 145.5%; /* 29.1px */
+}
+.conten-s{
+    color: #2F2F2F;
+font-family: Mulish;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 22px */
+text-transform: uppercase;
+display: flex;
+padding: 1.4vw ;
+gap: 8vw;
+border-bottom: solid 1px #7F7F7F;
+
+}
+.conten-s p{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+
+}
+
+.cont-btn--{
+height: 3vw;
+width: 9vw;
+border-radius: 2.5vw;
+background: #2F2F2F;
+color: #FFF;
+font-family: Nunito;
+font-weight: 700;
+font-size: 1vw;
+font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+border: none;
+}
+.btn-popular{
+    background:none;
+    border: none;
+    height: 3vw;
+width: 9vw;
+}
+.btn-popular img{
+    width: 100%;
+}
+.conten-costos{
+    width: 100%;
+    height: 4vw;
+    border-bottom: solid 1px #7F7F7F;
+    padding: 0.7vw 1.5vw ;
+}
+.conten-costos{
+    color: #2F2F2F;
+font-family: Mulish;
+font-size: 2vw;
+font-style: normal;
+font-weight: 800;
+line-height: 110%; /* 44px */
+display: flex;
+gap: 1.5vw
+;
+}
+.conten-costos span {
+    
+    color: #2F2F2F;
+    font-family: Mulish;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+.nilled{
+    color: #808080;
+font-family: Mulish;
+font-size: 1.1vw;
+font-style: normal;
+font-weight: 400;
+line-height: 150.5%; /* 30.1px */
+margin-top: 0.3vw;
+}
+
+.img-con-chulo{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 2vw;
+}
+.img-con-chulo article{
+    display: flex;
+    align-items: center;
+    gap: 0.2vw;
+}
+.img-con-chulo img{
+    width: 1vw;
+    height: 1.1vw;
+    margin-right: 0.8vw;
+}
+.img-con-chulo h4{
+    font-family: "Mulish";
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.img-con-chulo span{
+    color: #b3b3b3;
+}
+.get-started{
+    padding: 1vw 5.5vw;
+    border-radius: 2vw;
+    margin:  0vw 2.5vw;
+    font-size: 1.5vw;
+    background:none;
+    border: solid 1px #808080 ;
+    text-transform: capitalize;
+}
+.cont-text:hover {
+    margin-top: -50px;
+    transition: all 500ms ease;
+    transition: all 500ms ease-in-out;
+}
+.cont-text:hover .get-started{
+    background: #5956E9;
+    color: white;
+    transition: all 500ms ease;
+}
+/* ---------------------------------------------------fin de la tarjeta de suscripcion  -------------------------------------*/
+.conten-money{
+    margin:50px auto;
+    width: 80%;
+    height: 30vh;
+    border-radius: 30px;
+background: #F6F6F6;
+padding: 2vw 3vw;
+display: flex;
+font-family: Mulish;
+gap: 2vw;
+    line-height: 1.4vw;
+}
+.conten-money img{ 
+    height: 100%;
+}
+.contenn{
+    height: 100%;
+}
+.contenn-texto p{
+    color: #808080;
+    font-family: Mulish; 
+    margin-bottom: 1vw;
+    font-size: 1vw;
+   
+}
+.contenn-texto h2{
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    margin-top: 1,4vw;
+  
+}
+.contenn-texto h3{
+  
+    font-size: 1.4vw;
+    
+  
+}
+/* ------------------------------------------------------comienzo de compare-pricing------------------------- */
+    .cont-texto-compare{
+        color: #242331;
+font-family: Nunito;
+font-size: 1.5vw;
+margin: 9vw auto ;
+width: 40%;
+font-style: normal;
+font-weight: 800;
+line-height: 123%; /* 49.2px */
+    }
+    .conten-compare-pincing{
+        width: 80%;
+        height: 240vh;
+        margin: auto;
+        border-radius: 4vw;
+        border: 1px solid #D3D3D3;
+    }
+    .conten-fecatures{
+        display: flex;
+       text-align: center;
+       justify-content: center;
+       padding-top: 3vw;
+       font-size: 1.5vw;
+       color: #242331;
+       font-family: Mulish;
+    }
+    .conten-precios p{  
+        font-size: 1vw;
+    }
+    .conten-precios {
+        margin-left: 0vw;
+    }
+   .-precios{
+    margin-left: 7vw;
+   }
+   
+    
+    .conten-precio1{
+        width: 25%;
+        padding-left: 10%;
+        margin-left: 5%;
+      
+       }
+       .conten-precio{
+        width: 25%;
+        padding-left: 10%;
+       
+       }
+         .conten-precio3{
+        width: 25%;
+       padding-left: 5%;
+       }
+    .conten-precioss{
+        width:35%;
+        padding-left: 3vw;
+    }
+    .conten-precios2{
+        width: 25%;
+    }
+    .cont-social{
+        width: 32vw;
+    }
+    .conten-precioss2{
+        width: 35%;
+        text-align: center;
+    }
+    .conten-precioss3{
+        width: 35%;
+        text-align: end;
+      
+    }
+    .-spacios{
+        padding-top: 0vw;
+        border-bottom:1px solid #D3D3D3 ;
+        display: flex;
+
+    }
+
+    .color {
+        background:white;
+    }
+    .-precios{
+     
+     margin-right: 4vw;
+   
+    }
+    .-precioss{
+   
+       color: white;
+       }
+       .conten-iguales{
+        height:4.5%;
+       
+        padding: 1.5vw 7vw;
+        font-family:Mulish ;
+        color: rgb(171, 171, 171);
+       }
+       .conten-igualess{
+        height: 4%;
+        background-color: #e6e3e3;
+        padding: 1.5vw 7vw;
+        font-family:Mulish ;
+        color: #5956E9;
+       }
+       .conten-iguales span{
+        font-family:Mulish ;
+        font-size: 1.3vw;
+        color: #797979;
+        }
+        .conten-precioss img,.conten-precioss2 img,.conten-precioss3 img{
+            width: 1.5vw;
+           
+        }
