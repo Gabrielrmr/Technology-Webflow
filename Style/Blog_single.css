@@ -18,7 +18,7 @@ h3{
     font-size: 1.4vw;
 }
 .Tarea_blog--title{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-image: url(/Imagenes_Feacture_single/background_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 95%;
@@ -108,7 +108,7 @@ h3{
     height: 25vw;
 }
 .content_automated--imagen_fondo{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/fondo-gradiente.png);
+    background-image: url(/Imagenes_Feacture_single/fondo-gradiente.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2vw;

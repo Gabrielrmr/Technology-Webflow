@@ -10,7 +10,7 @@
 .textto p{
     color: #FFF;
 text-align: center;
-font-family: Mulish;
+font-family: "Mulish";
 font-size: 2vw;
 font-style: normal;
 margin-top: 0.5vw;
@@ -94,4 +94,6 @@ box-shadow: -7px 32px 54px 3px rgba(#1B16FF,0.66);
     border-radius: 3vw;
     background-color: black;
     color: #FFF;
+    border: none;
+    cursor: pointer;
 }

@@ -18,7 +18,7 @@ h3{
     font-size: 1.4vw;
 }
 .Tarea_blog--title{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-image: url(/Imagenes_Feacture_single/background_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 95%;
@@ -53,7 +53,7 @@ h3{
     padding: 2vw 0vw;
 }
 .blog--content--info_imagen{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/tablet.png);
+    background-image: url(/Imagenes_Feacture_single/tablet.png);
     background-size: cover;
     height: 18vw;
     width: 100%;
@@ -79,7 +79,7 @@ h3{
     display: flex;
     justify-content: space-between;
     padding: 1vw 0vw;
-    border-bottom: 1px solid #808080;
+    border-bottom: 0.1vw solid #DCDCDC;
 }
 .blog--content--info_descripcion{
     display: grid;
@@ -93,19 +93,19 @@ h3{
     font-weight: 700;
 }
 .fondo_hombre{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/hombre_oficina.png);
+    background-image: url(/Imagenes_Feacture_single/hombre_oficina.png);
 }
 .fondo--computador{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/computador.png);
+    background-image: url(/Imagenes_Feacture_single/computador.png);
 }
 .fondo--celular{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/celular.png);
+    background-image: url(/Imagenes_Feacture_single/celular.png);
 }
 .fondo--empleada{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/empleada.png);
+    background-image: url(/Imagenes_Feacture_single/empleada.png);
 }
 .fondo--empleados{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/empleados.png);
+    background-image: url(/Imagenes_Feacture_single/empleados.png);
 }
 
 .Tarea_blog--prueba{
@@ -116,7 +116,7 @@ h3{
 }
 .blog--prueba_fondo{
     display: flex;
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/fondo_prueba.png);
+    background-image: url(/Imagenes_Feacture_single/fondo_prueba.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

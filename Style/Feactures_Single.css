@@ -21,7 +21,7 @@ h3{
     height: 60vw;
 }
 .Tarea_fondo{
-    background-image: url(/Technology-Webflow/Imagenes_Feacture_single/background_banner.jpg);
+    background-image: url(/Imagenes_Feacture_single/background_banner.jpg);
     background-size: cover;
     width: 95%;
     margin: auto;
@@ -166,6 +166,7 @@ h3{
     background: #F6F6F6;
     border-radius: 1.5vw;
     justify-content: space-between;
+
 }
 .familia--content{
     display: grid;
