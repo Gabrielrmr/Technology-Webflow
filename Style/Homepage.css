@@ -810,6 +810,8 @@
     width: 27vw;
     height: 3.5vw;
     border-radius: 3vw;
+    font-size: 1vw;
+    padding-left: 1vw;
 }
 .Email input::placeholder{
     font-family: "Mulish";
